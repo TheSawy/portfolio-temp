@@ -1,0 +1,310 @@
+/*            Start Global            */
+.container {
+    width: 1200px;
+    margin: auto;
+    position: relative;
+
+
+
+}
+p {
+    font-family: sans-serif;
+}
+* {
+    box-sizing: border-box;
+
+}
+.clearfix {
+    clear: both;
+}
+
+/*            End Global            */
+
+
+/*            Start Header and Nav-bar            */
+
+.bx-wrapper  {
+    background: none;
+    border: none; 
+    box-shadow: none;
+    top:170px;
+
+    
+}
+.bx-wrapper .bx-viewport {
+    background: none;
+    border: none; 
+    margin-top: 49px;
+    top:-25px;
+    
+}
+.logo p {
+   color: #FFF;
+   position: absolute;
+   top: 10px;
+   left: 20px;
+   letter-spacing: -1px;
+   padding: 5px;
+   font-size: 28px;
+}
+
+.slider {
+    width: 100%;
+    background-color: rgba(0, 0 ,0 , 0.7);
+    -moz-transform :translateY(-47px);
+    transform :translateY(-47px);
+    -moz-background-size: cover;
+    background-image: url('../images/header2.jpg');
+    background-size: cover; 
+    position: relative;
+}
+.background-color {
+    height: 620px;
+    background-color: rgba(0, 0 ,0 , 0.7);  
+
+}
+.slider  {
+    position: relative;
+    width: 100%;
+}
+.navi .logo {
+    float: left;
+    width: 30%;
+}
+.navi .nav-bar {
+    position: relative;
+
+}
+.navi .nav-bar ul {
+   position: absolute;
+   top: 29px;
+   right: 1%;
+}
+.navi .nav-bar li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 50px;
+    padding:0 10px 0 10px ;
+    font-family: arial;
+    font-size: 19px;
+
+}
+.navi .nav-bar ul li a {
+    text-decoration: none;
+    color: #FFF;
+}
+.nav-bar ul li a:hover {
+    text-decoration: underline; 
+    color: #1ABC9C;
+}
+.moto {
+    text-align: center;
+    -moz-transform :translateY(150px);
+    transform :translateY(150px);
+}
+.moto h1 {
+    font-size: 70px;
+    color: #FFF;
+}
+.moto span {
+    color: #1ABC9C;
+}
+.moto p {
+    color: #FFF;
+    font-size: 19px;
+
+}
+
+/*            End Header and Nav-bar            */
+
+
+
+/*            Start Servicies            */
+.servicies {
+    width: 100%;
+}
+.service-head {
+    font-size: 20px;
+    
+
+}
+.service-head > span {
+    border-bottom: 1px solid black;
+    
+}
+.container .first, .container .second {
+    width: 100%;
+    color: #888;
+    
+    
+}
+.container .first .first-row {
+    width: 33%;
+    float: left;
+}
+.container .second .second-row {
+    width: 33%;
+    float: left;
+}
+.first-row h3 , .second-row h3 {
+    transform: translate(95px,-72px);
+    font-weight: normal;
+}
+.first-row p, .second-row p {
+    transform: translate(95px,-46px);
+    width: 70%;
+}
+.first-row i , .second-row i {
+
+    color: #1ABC9C;
+    width: 30px;
+  
+}
+
+
+/*            End Servicies            */
+
+
+/*            Start team            */
+.team .team-wrap{
+    width: 100%;
+    
+}
+.team .team-wrap .team-info {
+    float: left;
+    width: 30%;
+}
+.team .team-wrap   .team-images {
+    float: left;
+    width: 70%;
+    text-align: right;
+    position: relative;
+}
+ .team-images img {
+    margin-left: 5px;
+    display: inline;
+    
+}
+.team-images .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    line-height: 183px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFF;
+    text-align: center;
+    background-color: rgba(26, 188, 156, .9);
+    display: none;
+}
+.team-images img:hover .overlay{
+    display: block;
+} 
+
+
+/*            End team            */
+
+
+/*            Start feedback        */
+
+.feedback {
+    
+    background-image: url('../images/keyboard.jpg');
+  
+    text-align: center;
+    height: 400px;
+    margin-top: 40px;
+    position: relative;
+
+}
+.feedback .f-over {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    color: #FFF;
+    background-color: rgba(0, 0, 0, .6);
+}
+.feedback .feed {
+    padding-top: 70px;
+    
+}
+.feedback .feed-slider > div {
+    display: none;
+}
+.feedback .feed-slider .active{
+
+    display: block;
+}
+.feedback .feed p {
+    padding: 20px;
+}
+/*            Start projects        */
+.projects {
+    position: relative;
+}
+hr {
+    width: 4%;
+    position: absolute;
+    left: 0px;
+    top:25px;
+    font-weight: bolder;
+}
+.selecting-area button {
+    border: #1ABC9C solid 2px;
+    height: 40px;
+    padding: 20px;
+    margin: 10px;
+    color: gray;
+    cursor: pointer;
+
+}
+.projects .container .projects-samples {
+    margin: 10px;
+    padding: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+
+/*            Start footer        */
+
+.footer {
+    background-color: #232323;
+    color: #FFF;
+}
+.about, .tags, .recent, .blog {
+    width: 25%;
+    float: left;
+
+}
+.about  h5, .tags h5, .recent h5, .blog h5 {
+    font-weight: normal;
+    font-size: 18px;
+}
+.about p {
+    color: #6C6752;
+    line-height: 1.6;
+    width: 90%;
+}
+.recent img {
+    display: block;
+    padding-bottom: 5px;
+}
+.tags span {
+    border: 1px solid #979797;
+    padding:10px;
+    display: inline-block;
+    margin-top: 10px;  
+     
+}
+ 
+
+/*            End footer        */
