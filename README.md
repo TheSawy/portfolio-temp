@@ -1,0 +1,1 @@
+# it's an early training on using bootstrap
