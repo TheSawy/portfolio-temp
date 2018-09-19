@@ -1,1 +1,1 @@
-# it's an early training on using bootstrap
+# a single-page website training with a little jquery
