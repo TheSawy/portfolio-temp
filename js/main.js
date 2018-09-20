@@ -32,7 +32,7 @@ $(function() {
         $(this).toggleClass("over");
     }) */
     
-  });
+ 
 
 /**
 * self-made slider for feedback
