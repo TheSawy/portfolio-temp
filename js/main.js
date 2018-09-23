@@ -31,7 +31,6 @@ $(function() {
     /* $(".projects-samples img").hover(function () {
         $(this).toggleClass("over");
     }) */
-    
  
 
 /**
